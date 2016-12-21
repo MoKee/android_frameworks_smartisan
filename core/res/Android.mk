@@ -43,7 +43,3 @@ LOCAL_EXPORT_PACKAGE_RESOURCES := true
 #LOCAL_RESOURCE_DIR := $(framework_GENERATED_SOURCE_DIR)/renderscript/res $(LOCAL_PATH)/res
 
 include $(BUILD_PACKAGE)
-
-# define a global intermediate target that other module may depend on.
-.PHONY: framework-smartisanos-res-package-target
-framework-smartisanos-res-package-target: $(LOCAL_BUILT_MODULE)
