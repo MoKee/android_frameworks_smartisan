@@ -47,7 +47,7 @@ framework_smartisanos_res_R_stamp := \
 $(full_classes_compiled_jar): $(framework_smartisanos_res_R_stamp)
 
 # Make sure that framework-res is installed when framework is.
-$(LOCAL_INSTALLED_MODULE): | $(dir $(LOCAL_INSTALLED_MODULE))framework-smartisanos-res.apk
+$(LOCAL_INSTALLED_MODULE): | $(dir $(framework_module))framework-smartisanos-res.apk
 
 # Include this library in the build server's output directory
 #$(call dist-for-goals, droidcore sdk, $(LOCAL_BUILT_MODULE):smartisanos.jar)
