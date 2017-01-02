@@ -22,7 +22,7 @@ LOCAL_CERTIFICATE := platform
 
 #Tell aapt to create "extending (non-application)" resource IDs,
 # since these resources will be used by many apps.
-LOCAL_AAPT_FLAGS := -x 2
+LOCAL_AAPT_FLAGS := -x 159
 
 LOCAL_MODULE_TAGS := optional
 
